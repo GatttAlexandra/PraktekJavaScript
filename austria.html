@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const negara = "Austria";
+        const benua = "Eropa";
+        let populasi = "8.956 Juta";
+        const kepulauan = false;
+        const bahasa ="German";
+
+        if(kepulauan == true){
+        negaraText ="Negara ini sebuah Kepulauan"
+        } else { 
+        negaraText ="Negara ini bukan Negara kepulauan"
+        }
+        const countryInfoElement = document.getElementById("country-info");
+        document.writeln(`Negara: ${negara} , Benua: ${benua} , Jumlah Penduduk: ${populasi},  ${negaraText}, Bahasa: ${bahasa}`);
+    </script>
+    
+</body>
+</html>
