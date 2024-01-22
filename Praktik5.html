@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let nilaiAkhir = prompt("Masukan nilai Akhir");
+        // if(nilaiAkhir >= 80 && nilaiAkhir <= 100) {
+        //     document.write(`Nilai Akhir Anda A(${nilaiAkhir})`);
+        // } else if (nilaiAkhir >= 70 && nilaiAkhir <= 80) {
+        //     document.write(`Nilai Akhir Anda B(${nilaiAkhir})`);
+        //     } else if (nilaiAkhir >=60 && nilaiAkhir <=70) {
+        //         document.write(`Nilai Akhir Anda C(${nilaiAkhir})`);
+        //         } else {
+        //             document.write(`Anda Belum Mengikuti Ujian`)
+        //     }
+        // let userRole = prompt("Login Sebagai: ")
+        // if (UserRole == "Admin") {
+        //     document.write("Selamat Datang Admin");
+        // } else if (UserRole == "Operator"){
+        //     document.write("Selamat Datang Operator");
+        //     }else{
+        //         document.write("Anda Dilarang Mengakses Halaman Ini");
+        // }
+        let nilaiTimA1 = 96;
+        let nilaiTimA2 = 108;
+        let nilaiTimA3 = 89;
+
+        let nilaiTimB1 = 88;
+        let nilaiTimB2 = 91;
+        let nilaiTimB3 = 110;
+
+        rataratanilaiTimA = (nilaiTimA1+nilaiTimA2+nilaiTimA3)/ 3;
+        rataratanilaiTimB = (nilaiTimB1+nilaiTimB2+nilaiTimB3)/ 3;
+
+        if(rataratanilaiTimA > rataratanilaiTimB) {
+            document.write(`Tim A Memenangkan Pertandingan Dengan Score Rata Rata ${rataratanilaiTimA}`);
+        } else if (rataratanilaiTimA < rataratanilaiTimB) {
+            document.write(`Tim B Memenangkan Pertandingan Dengan Score Rata Rata ${rataratanilaiTimB}`)
+        }else{
+            document.write('Kedua Tim Seri');
+        }
+    </script>
+</body>
+</html>
